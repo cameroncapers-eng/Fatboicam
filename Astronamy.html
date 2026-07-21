@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #123;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<header>
+  <img src="https://img.freepik.com/premium-vector/telescope-logo-with-super-lens-design-vector-astronomy-equipment-illustration-design_527344-746.jpg" alt="Astronomy Logo" width="100" height="100">
+  <h2>My Major: Astronomy</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Astronamy.html">Astronamy</a></li>
+      <li><a href="Biology.html">Biology</a></li>
+      <li><a href="Chemistry.html">Chemistry</a></li>
+      <li><a href="Physics.html">Physics</a></li>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa7CuzVykavhOPsBqEtSatdQPOMcW9_r4sU6vrOPfvKQ&s=100" alt="Astronamy" width="300" height="200">
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Astronamy</h1>
+    <p>My future goal is to become a Astronamist. To become an astronomer, you must complete a rigorous educational path, typically starting with a Bachelor of Science in physics, astronomy, or astrophysics. This must be followed by a Ph.D. in a relevant scientific field, followed by several years of temporary postdoctoral research fellowships before securing a permanent academic, laboratory, or observatory role As a Astronamist, AI-driven software, like Livingstone 2, allows rovers and spacecraft to diagnose hardware failures and execute corrective actions without waiting for ground control commands. my goal is to be suscess full in like so there when it comes a time i can just settle down with a family and retire and rest peacfully..</p>
+    <p> My career path is astronomy, my career field is mathematics, Highly level tech and physics. Tools that are used in my field are Space level telescopes Advanced computer tec, space probes radio waves. 
+
+In my field which is astronomy telescopes are used to locate plants or stars in different places. Radio waves from space are natural, low-frequency electromagnetic signals emitted by celestial objects and phenomena.
+
+Telescopes have revolutionized technology by driving innovations in digital imaging, optics, and data processing. To capture faint starlight, engineers developed highly sensitive sensors, paving the way for everyday electronics.
+</p>
+    <p></p>
+  </article>
+</section>
+
+<footer>
+    <p>Copyright © 2024 My Major: Astronomy</p>
+    <img src="https://cdn.dribbble.com/userupload/4246424/file/original-7de56ef0ab0729f7d261f0e1f1945aa1.jpg?resize=400x0" alt="Astronamy" width="300" height="200">
+</footer>
+
+</body>
+</html>
+
