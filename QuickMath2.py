@@ -1,0 +1,1 @@
+"""a function is a block of organized, reusable code that is used to perform a single, related action. Functions provide better modularity for your application and a high degree of code reusing. In Python, functions are defined using the `def` keyword, followed by the function name and parentheses. Here's an example of a simple function:"""
